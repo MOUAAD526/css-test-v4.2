@@ -1,0 +1,96 @@
+
+.section_11{
+
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    flex-wrap: wrap;
+    border: 1px solid rgb(255, 255, 255);
+   overflow: auto;
+
+
+}
+
+.section_11 .card{
+   border-radius: 18px;
+   display: grid;
+   grid-template-columns: 280px;
+   grid-template-rows: 190px 130px 50px;
+   background-color: rgb(253, 250, 244);
+   cursor: pointer;
+   transition: all .5s ease ;
+   margin: 15px 15px;
+   box-shadow: 7px 10px 17px -1px rgba(29, 29, 29, 0.7);
+}
+.section_11 .card:hover{
+  transform: scale(1.1)
+}
+.section_11 .card .card_img {
+  overflow: hidden;
+}
+.section_11 .card .card_img img{
+   width: 100%;
+  border-radius: 18px 18px 0 0 ;
+  outline: none;
+  overflow: hidden;
+
+}
+/* ------ Card Content----- */
+.section_11 .card .card_content{
+ padding: 0;
+ text-align: center;
+ } 
+ .section_11 .card .card_content span{
+   font-size: .9rem
+ }
+card_1 .date{
+  color: #403a3e;
+ }
+ card_2 .date{
+    color: #1f4037;
+ }
+  card_2 .date{
+  color: #ff5f6d;
+ }
+
+.section_11 .card .card_content p{
+ color: gray;
+ margin:15px 0 20px;
+ font-size: .9rem;
+}
+/* ------Card Footer------ */
+.section_11 .card .card_footer {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 0 0 18px 18px;
+  color: white;
+}
+.section_11 .card .card_footer p:nth-child(2){
+  border-left: 1px solid rgba(179, 175, 175, 0.705);
+  border-right: 1px solid rgba(185, 183, 183, 0.678);
+}
+.section_11 .card_1 .card_footer {
+ background: linear-gradient(to right, #403a3e, #be5869); 
+
+}
+.section_11 .card_2 .card_footer {
+  background: linear-gradient(to right, #1f4037, #99f2c8);
+}
+.section_11 .card_3 .card_footer {
+background: linear-gradient(to right, #ff5f6d, #ffc371);
+}
+.section_11 .card .card_footer P{
+  width:33.333333%;
+  text-align: center;
+   font-size: 1.1rem;
+  font-weight: 500;
+}
+.section_11 .card .card_footer P span{
+  display: block;
+  font-size: .7rem;
+  font-weight: 100;
+}
